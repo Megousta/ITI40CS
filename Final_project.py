@@ -8,7 +8,7 @@ import socket
 import nmap
 import requests
 import iptc
-from scapy.all import *
+from scapy.all import sniff
 from bs4 import BeautifulSoup
 from bs4 import Comment
 from watchdog.observers import Observer
